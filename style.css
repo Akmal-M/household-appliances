@@ -58,7 +58,9 @@ html {
 
 .main .navbar i {
     font-size: 45px;
-    margin-right: 400px;
+    position: absolute;
+    top:20px;
+    left: 20px;
     color: #a8d103;
 }
 
@@ -74,7 +76,7 @@ html {
 .main .navbar ul li:hover {
     background-color: var(--btnColor);
     border-radius: 80px 80px 80px 80px;
-    /* transition: .3s; */
+     transition: .3s;
     cursor: pointer;
 }
 
@@ -82,7 +84,6 @@ html {
 
 .main .navbar ul li:hover a {
     color: #fff;
-    /* transition: .0s;   */
 }
 
 /* flags */
@@ -144,6 +145,7 @@ html {
 .info .box p {
     color: var(--textColor);
     font-size: 17px;
+    margin-top: 10px;
 }
 
 /* second row end */
@@ -161,13 +163,13 @@ html {
     text-align: center;
 }
 #information .six h1 {
-    color: var(--headerColor);
+    color: var(--mainColor);
     font-size: 40px;
     margin-top: 70px;
 }
 
 #information .six p {
-    color: var(--smallTextColor);
+    color: var(--mainColor);
     font-size: 24px;
     margin-top: 15px;
     padding: 0 10px;
@@ -188,7 +190,7 @@ html {
     border: 2px solid var(--btnColor);
     background-color: var(--btnBackgroundColor);
     transition: .5s ease-in-out;
-
+   color: var(--btnColor);
 }
 
 #information .six button a {
@@ -199,7 +201,7 @@ html {
 }
 
 #information .six button:hover a {
-    color: var(--btnHoverColor);
+    color: var(--btnColor);
     transition: .5s;
 }
 
@@ -376,13 +378,13 @@ html {
     text-align: center;
 }
 .information-second .thirten h1 {
-    color: var(--headerColor);
+    color: var(--mainColor);
     font-size: 40px;
     margin-top: 10px;
 }
 
 .information-second .thirten p {
-    color: var(--smallTextColor);
+    color: var(--mainColor);
     font-size: 24px;
     margin-top: 15px;
 }
@@ -401,7 +403,6 @@ html {
     border: 2px solid var(--btnColor);
     background-color: var(--btnBackgroundColor);
     transition: .5s ease-in-out;
-
 }
 
 .information-second .thirten button a {
@@ -412,7 +413,7 @@ html {
 }
 
 .information-second .thirten button:hover a {
-    color: var(--btnHoverColor);
+    color: var(--btnColor);
     transition: .5s;
 }
 
@@ -487,7 +488,7 @@ grid-auto-rows: 30vh;
 }
 
 #bestsellers-second .fiften {
-    background-image: url(img/smart\ watch\ brown.png);
+    background-image: url(img/smartwatchbrown.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
@@ -521,10 +522,10 @@ grid-auto-rows: 30vh;
 #footer .fa {
     color: var(--textColor);
     font-size: 24px;
-    margin: 0 7px; 
+    margin: 0 7px;
     cursor: pointer;
   }
-  
+
   #footer button .fa {
     color: #fff;
     font-size: 14px;
@@ -553,7 +554,7 @@ grid-auto-rows: 30vh;
 }
 
 .about-us p:last-child {
-    padding: 0px 250px;
+    padding: 0 250px;
 }
 
 #footer .wrap {
@@ -653,15 +654,12 @@ grid-auto-rows: 30vh;
     top: 5px;
     width: 45px;
     height: 45px;
-    z-index: 1;
-    /* background-color: rgb(238, 237, 237); */
     z-index: 2;
 }
 
 
 .main .menu ul {
     position: fixed;
-    /* background-color:var(--btnBackgroundColor); */
     background-color: rgb(238, 237, 237);
     width: 100%;
     height: 100vh;
@@ -764,7 +762,6 @@ grid-auto-rows: 30vh;
 
 #information .seven {
     background-size: 450px;
-    margin: 0 auto;
     width: 100%;
     height: 100%;
     margin: 20px 0;
@@ -792,7 +789,6 @@ grid-auto-rows: 30vh;
 
 #bestsellers {
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 10px;
     margin: 5px;
 }
 
@@ -868,7 +864,6 @@ font-size: 19px;
 
 .information-second .twelve {
     background-size: 450px;
-    margin: 0 auto;
     width: 100%;
     height: 100%;
     margin: 20px 0;
@@ -881,7 +876,6 @@ font-size: 19px;
 
 #bestsellers-second {
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 10px;
     margin: 5px;
 }
 
@@ -913,10 +907,10 @@ font-size: 19px;
 #footer .fa {
     color: var(--textColor);
     font-size: 18px;
-    margin: 0 7px; 
+    margin: 0 7px;
     cursor: pointer;
   }
-  
+
   #footer button .fa {
     color: #fff;
     font-size: 15px;
@@ -935,7 +929,7 @@ font-size: 19px;
     font-size: 13px;
 }
 .about-us p:last-child {
-    padding: 0px 50px;
+    padding: 0 50px;
 }
 
 
